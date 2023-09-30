@@ -37,24 +37,14 @@ Para ejecutar el programa desde cualquier ubicación en Mac, Windows o Linux, pr
 
 
 
-- **Configuración para Windows**
+- En Windows:
 
-    Primero, establece la ruta del directorio del proyecto como una variable:
+    Agrega la ruta del directorio del proyecto a la variable de entorno PATH siguiendo estos pasos:
 
-    ```bash
-    $chat = 'Ruta_del_directorio'
-    ```
-
-    Agrega esta ruta al PATH del sistema para que puedas ejecutar el programa desde cualquier ubicación:
-
-    ```bash
-    $env:Path += ";$chat"
-    ```
-
-    Comprueba que la ruta este correctamente en el PATH.
-     ```bash
-       $env:Path
-    ```
+    1. Busca "Editar variables de entorno del sistema" en la barra de búsqueda de Windows.
+    2. Haz clic en "Variables de entorno..."
+    3. En la sección "Variables de sistema", busca la variable PATH y haz clic en "Editar..."
+    4. Agrega la ruta completa al directorio del proyecto, por ejemplo, C:\ruta\al\directorio\del\proyecto.
  
 
 
