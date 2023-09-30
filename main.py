@@ -1,3 +1,10 @@
+"""" -- shebang para window y linux--
+# !/usr/bin/env python
+# !C:/path/to/python 
+
+"""
+
+
 from hugchat import hugchat
 from hugchat.login import Login
 from env import *
