@@ -55,7 +55,7 @@ Crear un alias te permite ejecutar el programa desde cualquier ubicación. En Ma
   **Agrega el alias al final del archivo:**
 
    ```powershell
-   New-Alias chatbot 'C:\Users\jonzn\OneDrive\Escritorio\huggingchat\main.py'
+   New-Alias chatbot 'C:\ruta\al\directorio\del\proyecto\nombre_del_archivo.py'
    ```
 
   **Guarda y cierra el archivo.**
