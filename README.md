@@ -41,10 +41,33 @@ Crear un alias te permite ejecutar el programa desde cualquier ubicación. En Ma
   ```powershell
    New-Alias chatbot chatbot  C:\ruta\al\directorio\del\proyecto\main.py
   ```
+
+  **Hacer el alias permanente en PowerShell:**
+
+  **Abre PowerShell como administrador.**
+
+  **Abre o crea tu perfil de PowerShell:**
+
+   ```powershell
+   notepad $PROFILE
+   ```
+
+  **Agrega el alias al final del archivo:**
+
+   ```powershell
+   New-Alias chatbot 'C:\Users\jonzn\OneDrive\Escritorio\huggingchat\main.py'
+   ```
+
+  **Guarda y cierra el archivo.**
+
+  Reemplaza `C:\ruta\al\directorio\del\proyecto\nombre_del_archivo.py` con la ruta real hacia tu archivo Python.
   
+  <br>
+  <br>
 
-Reemplaza `C:\ruta\al\directorio\del\proyecto\nombre_del_archivo.py` con la ruta real hacia tu archivo Python.
 
+
+A partir de este momento, podrás usar el alias `chatbot` en cualquier sesión de PowerShell para ejecutar tu archivo `main.py`. 
 ## 4. **Ejecución del Proyecto**
 
 Desde cualquier ubicación, puedes simplemente escribir `chatbot` en la línea de comandos para ejecutar el programa:
