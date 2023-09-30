@@ -42,10 +42,6 @@ Crear un alias te permite ejecutar el programa desde cualquier ubicación. En Ma
   Set-Alias -Name chatbot -Value C:\ruta\al\directorio\del\proyecto\nombre_del_archivo.py
   ```
   
-  Ejecutar
-    ```bash
-        python chatbot    
-    ```
 
 Reemplaza `C:\ruta\al\directorio\del\proyecto\nombre_del_archivo.py` con la ruta real hacia tu archivo Python.
 
