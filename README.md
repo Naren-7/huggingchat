@@ -39,7 +39,7 @@ Crear un alias te permite ejecutar el programa desde cualquier ubicación. En Ma
 - **En Windows (PowerShell):**
 
   ```powershell
-  Set-Alias -Name chatbot -Value C:\ruta\al\directorio\del\proyecto\nombre_del_archivo.py
+   New-Alias chatbot chatbot  C:\ruta\al\directorio\del\proyecto\main.py
   ```
   
 
