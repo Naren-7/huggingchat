@@ -9,7 +9,7 @@ Asistente de inteligencia artificial basado en el API de HuggingChat. Permite ch
 Asegúrate de tener las siguientes bibliotecas instaladas:
 
 ```bash
-pip install -r requirements.text
+pip install -r requirements.txt
 ```
 
 ### 2. **Configuración**
