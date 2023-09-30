@@ -21,39 +21,40 @@ email = "tu_correo@example.com"
 passwd = "tu_contraseña_secreta"
 ```
 
-### 3. **Agregar la PAHT (OPCIONAL)**
-Para ejecutar el programa desde cualquier ubicación en Mac, Windows o Linux, primero, agrega el directorio del proyecto al PATH. 
+
+
+### 3. **Crear Alias para Ejecutar el script (Opcional)**
+
+Crear un alias te permite ejecutar el programa desde cualquier ubicación. En Mac y Linux, puedes editar tu archivo `.bashrc` o `.bash_profile`. Abre el archivo en un editor de texto y agrega el siguiente alias:
 
 - **En Mac o Linux:**
 
-    Abre tu archivo de perfil de shell (`~/.bashrc`, `~/.zshrc`, etc.) y agrega la siguiente línea al final del archivo:
+  ```bash
+  echo 'alias chatbot="python /ruta/al/directorio/del/proyecto/nombre_del_archivo.py"' >> ~/.bashrc
+  source ~/.bashrc
+  ```
 
+  Reemplaza `/ruta/al/directorio/del/proyecto` con la ruta real hacia el directorio del proyecto y `nombre_del_archivo.py` con el nombre real de tu archivo Python.
+
+- **En Windows (PowerShell):**
+
+  ```powershell
+  Set-Alias -Name chatbot -Value C:\ruta\al\directorio\del\proyecto\nombre_del_archivo.py
+  ```
+  
+  Ejecutar
     ```bash
-    export PATH=$PATH:/ruta/al/directorio/del/proyecto
+        python chatbot    
     ```
 
-    Reemplaza `/ruta/al/directorio/del/proyecto` con la ruta real hacia el directorio del proyecto.
+Reemplaza `C:\ruta\al\directorio\del\proyecto\nombre_del_archivo.py` con la ruta real hacia tu archivo Python.
 
+## 4. **Ejecución del Proyecto**
 
-
-
-- En Windows:
-
-    Agrega la ruta del directorio del proyecto a la variable de entorno PATH siguiendo estos pasos:
-
-    1. Busca "Editar variables de entorno del sistema" en la barra de búsqueda de Windows.
-    2. Haz clic en "Variables de entorno..."
-    3. En la sección "Variables de sistema", busca la variable PATH y haz clic en "Editar..."
-    4. Agrega la ruta completa al directorio del proyecto, por ejemplo, C:\ruta\al\directorio\del\proyecto.
- 
-
-
-### 4. **Ejecución del Proyecto**
-
-Desde la línea de comandos, puedes ejecutar el programa en cualquier ubicación:
+Desde cualquier ubicación, puedes simplemente escribir `chatbot` en la línea de comandos para ejecutar el programa:
 
 ```bash
-python main.py
+chatbot
 ```
 
 ## Nota
